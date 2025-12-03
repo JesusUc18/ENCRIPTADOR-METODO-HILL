@@ -13,3 +13,18 @@ Proyecto desarrollado para la materia **Fundamentos de Álgebra**, donde se impl
 Este programa transforma texto a números (A=0…Z=25), aplica multiplicación matricial módulo 26 y muestra cada paso de forma visual.
 
 ---
+
+## 📌 Características
+
+- Encriptación usando **Cifrado Hill 2×2**.
+- Desencriptación automática usando la **matriz inversa módulo 26**.
+- Límite de **30 caracteres** para el mensaje.
+- Visualización en tiempo real de la **matriz del mensaje**.
+- Interfaz moderna, animada y responsive.
+- Validación de:
+  - Entrada vacía
+  - Matriz clave inválida
+  - Determinante = 0 (no invertible)
+  - Longitud impar en desencriptado
+
+---
