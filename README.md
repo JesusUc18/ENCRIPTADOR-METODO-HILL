@@ -47,3 +47,13 @@ Para desencriptar:
 
 ---
 
+## 📁 Estructura del proyecto
+
+📦 Encriptador-Método-Hill
+ ├── index.html     # Interfaz principal
+ ├── script.js      # Lógica del cifrado/desencriptado Hill
+ └── style.css      # Estilos y animaciones
+
+---
+
+
