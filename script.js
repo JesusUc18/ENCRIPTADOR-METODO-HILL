@@ -12,11 +12,11 @@ const btnDesencriptar = document.getElementById('desencriptar'); // <- declarado
 const resultadoDes = document.getElementById('resultadoDesencriptado'); // <- declarado
 const mensajeEncriptado = document.getElementById('mensajeEncriptado');
 
-mensaje.addEventListener('input', () => {
-    const len = mensaje.value.length;
-    charCount.textContent = `${len}/30`;
-    mostrarMatrizMensaje();
-});
+    mensaje.addEventListener('input', () => {
+        const len = mensaje.value.length;
+        charCount.textContent = `${len}/30`;
+        mostrarMatrizMensaje();
+    });
 
 function mostrarMatrizMensaje() {
     const texto = mensaje.value.toUpperCase().replace(/[^A-Z]/g, '');
@@ -58,6 +58,16 @@ btnEncriptar.addEventListener('click', () => {
         return;
     }
     
+
+
+
+    // Guardar posiciones originales de espacios
+    const indicesEspacios = [];
+    for (let i = 0; i < mensaje.value.length; i++) {
+        if (mensaje.value[i] === ' ') indicesEspacios.push(i);
+    }
+    window.espaciosGuardados = indicesEspacios;
+
     const texto = mensaje.value.toUpperCase().replace(/[^A-Z]/g, '');
     
     if (texto.length === 0) {
@@ -175,6 +185,18 @@ function desencriptarMensaje() {
     }
 
     resultado.classList.remove('error');
+
+
+
+    // Restaurar espacios
+    let chars = desencriptado.split('');
+    if (window.espaciosGuardados) {
+        window.espaciosGuardados.forEach(pos => {
+            if (pos <= chars.length) chars.splice(pos, 0, ' ');
+        });
+    }
+    desencriptado = chars.join('');
+
     resultadoDes.textContent = desencriptado;
 resultadoDes.classList.remove('error');
 
