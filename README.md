@@ -90,7 +90,7 @@ Matriz clave:
 [ 2  5 ]
 ```
 Encriptado:
-LFDP
+LGHW
 
 ---
 
