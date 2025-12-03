@@ -97,4 +97,29 @@ LFDP
 
 ---
 
+# 📚 Archivos principales
+
+### index.html
+Contiene la interfaz de usuario (inputs, matrices, áreas de texto, botones).
+
+### script.js
+Lógica del programa:
+- Conversión texto → números
+- Mostrar matriz del mensaje
+- Cifrado Hill
+- Cálculo de la matriz inversa módulo 26
+- Desencriptado
+- Validaciones
+
+### style.css
+Diseño oscuro con tonos morados, animaciones y estilo moderno tipo “neón”.
+
+---
+
+## 👤 Autor
+
+**Jesús Omar Uc Domínguez**  
+Fundamentos de Álgebra – 1° Cuatrimestre 2025  
+Portafolio del poderoso Yisus Christ
+
 
