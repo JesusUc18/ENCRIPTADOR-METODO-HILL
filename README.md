@@ -80,11 +80,20 @@ Mensaje:
 HOLA
 
 Matriz clave:
+```
 [ 3  3 ]
 [ 2  5 ]
-
+```
 Encriptado:
 LFDP
+
+---
+
+## 🎨 Tecnologías utilizadas
+
+- HTML5  
+- CSS3  
+- JavaScript  
 
 ---
 
