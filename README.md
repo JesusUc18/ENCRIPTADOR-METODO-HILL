@@ -1,8 +1,13 @@
-# Tecnológico de Software
-## Materia: Fundamentos de álgebra
-## Maestro: Jorge Javier Pedroza Romero
-## Alumno: Jesús Omar Uc Domínguez
-## Actividad #21 Cifrado Hill
+# Fundamentos de Algebra - Actividad # 21 - Cifrado Hill
+
+## 👨‍💻 Información del Estudiante
+
+- **Nombre:** Jesús Omar Uc Domíguez
+- **Matrícula:** SW2509031
+- **Grupo:** 1C
+- **Cuatrimestre:** Primer Cuatrimestre
+- **Carrera:** TSU en Desarrollo e Innovación de Software
+- **Profesor:** Jorge Javier Pedrozo Romero
 
 ---
 
