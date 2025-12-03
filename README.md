@@ -54,8 +54,23 @@ Para desencriptar:
  ├── index.html     # Interfaz principal
  ├── script.js      # Lógica del cifrado/desencriptado Hill
  └── style.css      # Estilos y animaciones
-
 ```
+
+---
+
+## 🚀 Cómo usar
+
+### 1. Encriptar
+1. Escribe un mensaje (solo letras A-Z).
+2. Ingresa una matriz clave 2×2 válida.
+3. Da clic en **Encriptar**.
+4. El resultado aparece en la caja inferior.
+
+### 2. Desencriptar
+1. Pega el mensaje encriptado.
+2. Usa la misma matriz clave.
+3. Da clic en **Desencriptar**.
+4. Obtendrás el texto original.
 
 ---
 
