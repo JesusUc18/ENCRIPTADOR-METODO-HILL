@@ -74,4 +74,18 @@ Para desencriptar:
 
 ---
 
+## 🧷 Ejemplo rápido
+
+Mensaje:
+HOLA
+
+Matriz clave:
+[ 3  3 ]
+[ 2  5 ]
+
+Encriptado:
+LFDP
+
+---
+
 
