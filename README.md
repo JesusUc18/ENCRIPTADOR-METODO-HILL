@@ -116,10 +116,27 @@ Diseño oscuro con tonos morados, animaciones y estilo moderno tipo “neón”.
 
 ---
 
-## 👤 Autor
+## 🤝 Agradecimientos
 
-**Jesús Omar Uc Domínguez**  
-Fundamentos de Álgebra – 1° Cuatrimestre 2025  
-Portafolio del poderoso Yisus Christ
+- **Profesor Jorge Javier Pedrozo Romero** por la estructura del curso y la práctica
+- **Tecnológico de Software** por la formación integral
 
+---
+
+## 📧 Contacto
+
+- **Email Institucional:** [jesus.uc@tecdesoftware.edu.mx]
+- **GitHub:** [JesusUc18](https://github.com/JesusUc18)
+
+---
+
+## 📄 Licencia
+
+Este proyecto es parte de las actividades académicas del **Tecnológico de Software** y está bajo la licencia MIT.
+
+---
+
+<div align="center">
+
+**⭐ Si te gustó este proyecto, dale una estrella ⭐**
 
